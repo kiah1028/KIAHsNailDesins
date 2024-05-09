@@ -1,0 +1,59 @@
+body {
+	background-color: #5C80BC;
+}
+
+h1{
+	color: #1F363D;
+	text-align: center;
+	font-size: 50px;
+}
+
+p, li, a {
+	color: #EEBEE7;
+}
+
+.topnav {
+   background-color: #6C534E;
+   overflow: hidden;
+}
+
+.topnav a {
+   float: left;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 10px;
+   text-decoration: none;
+   font-size: 17px;
+}
+
+.topnav a:hover {
+   background-color: #DDDDDD;
+   color: black;
+}
+
+.topnav a.active {
+   background-color: #E87EA1;
+   color: white;
+}
+
+table, th, td {
+  border: 1px; 
+  border-style: solid; 
+  border-color: black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+th {
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
