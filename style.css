@@ -36,24 +36,3 @@ p, li, a {
    color: white;
 }
 
-table, th, td {
-  border: 1px; 
-  border-style: solid; 
-  border-color: black;
-  border-collapse: collapse;
-}
-
-th, td {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-th {
-  text-align: left;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
